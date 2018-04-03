@@ -20,12 +20,10 @@ It also hosts a database of appropriate locations to observe these events from a
 Once registered, users are able to add comments, post their own events and locations, and favourite the ones they're most interested in.
 
 ##### [Visit website](https://stargazerapp.herokuapp.com/) for best viewing experience (the application is not yet designed for mobile).
----
-###### MORE GENERAL INFO HERE
 
 _________________
 
-###### EVENTS INFO
+###### EVENTS INFORMATION
 
 <p align="center"><img src="https://i.imgur.com/DaPleuv.png" width="700"></p>
 All our Events are displayed in card format, sorted by date. A nested ng-repeat creates titles for each date and then displays those days events underneath.
@@ -33,9 +31,11 @@ All our Events are displayed in card format, sorted by date. A nested ng-repeat 
 <p align="center"><img src="https://i.imgur.com/xv06h6q.jpg" width="700"></p>
 Each event has a show page which provides additional information and allows users to comment, favourite and upload images.
 
+<br />
+_________________
+<br />
 
-
-###### LOCATIONS INFO
+LOCATIONS INFORMATION
 
 <p align="center"><img src="https://i.imgur.com/QyrlLO2.png" width="700"></p>
 Star Gazer has hard-coded data for the best places to view the celestial events from. This data is presented in a card format with a map at the top of the page containing the location of all places displayed as weather icons, pulling weather data from each area to determine which icon will be on show.
@@ -54,7 +54,7 @@ When creating a new place, the location field is a Google Maps Autocomplete inpu
 
 _____
 
-###### PLACES INFO
+###### PLACES INFORMATION
 
 Star Gazer has a profile page, displaying your profile picture, which can be altered at any time using file-picker. The page also shows your favourited events and places, hidden until you click on "See your favourites" using ng-click and ng-class. These can be clicked on to take you to the page of the favourited event/place.
 
@@ -63,7 +63,7 @@ Star Gazer has a profile page, displaying your profile picture, which can be alt
 
 _________________
 
-###### BACKEND INFO  
+###### BACKEND INFORMATION  
 Star Gazer consumes several APIs in order to accumulate data on celestial events and the weather.  
 
 We consume the NASA neoAsteroids API for information on close approach asteroids and the CALUM API for data on visible satellite passes.  
@@ -119,6 +119,6 @@ FINAL STATEMENT GOES HERE
 
 ## Setup instructions
 
-Clone or download the repo  
-Install dependencies with `yarn install`
-Launch the app with `yarn start:server` and `yarn start:client`
+1. Clone or download the repo.
+2. Install dependencies with `yarn install`.
+3. Launch the app with `yarn start:server` and `yarn start:client`.
