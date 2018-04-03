@@ -3,20 +3,23 @@ GA WDI LDN Project 3
 
 ![image](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # GA WDI-32 Project 3 - StarGazer
+
+**This group project is a work in progress, some bug fixes and styling is yet to be completed.**
+
 Set in teams of three we were given 7 days to create a MEAN stack application using:
 - **M**ongo - For the database
 - **E**xpress - For the web-framework
-- **A**ngular - Angular(1) for the client-side framework
+- **A**ngular - Angular(1.6) for the client-side framework
 - **N**ode - For the server-side language**.
 
-Star Gazer is a web application built to create an easy and convenient way for stargazing enthusiasts and *laypeople* alike to discover celestial events and providing them with appropriate and scenic locations to view them from.
+Star Gazer is a web application built to create an easy and convenient way for stargazing enthusiasts and others alike to discover celestial events and providing them with appropriate and scenic locations to view them from.
 
 Using third-party APIs, the site displays events such as Meteor Showers and Astroids, with relevant information related to said event.   
 It also hosts a database of appropriate locations to observe these events from as well as providing weather data to ensure that users can go out in the best conditions.
 
 Once registered, users are able to add comments, post their own events and locations, and favourite the ones they're most interested in.
 
-##### [Visit website](https://stargazerapp.herokuapp.com/) for best *viewing* experience (the application is not yet designed for mobile).
+##### [Visit website](https://stargazerapp.herokuapp.com/) for best viewing experience (the application is not yet designed for mobile).
 ---
 ###### MORE GENERAL INFO HERE
 
@@ -35,7 +38,7 @@ Each event has a show page which provides additional information and allows user
 ###### LOCATIONS INFO
 
 <p align="center"><img src="https://i.imgur.com/QyrlLO2.png" width="700"></p>
-Star Gazer has hard-coded data for the best places to view the celestial events from. This data is presented in a *card format* with a map at the top of the page containing the location of all places displayed as weather icons, pulling weather data from each area to determine which icon will be on show.
+Star Gazer has hard-coded data for the best places to view the celestial events from. This data is presented in a card format with a map at the top of the page containing the location of all places displayed as weather icons, pulling weather data from each area to determine which icon will be on show.
 
 <p align="center"><img src="https://i.imgur.com/jVEWItC.png" width="700"></p>
 
@@ -45,7 +48,7 @@ Each location has a display page which authorised users can edit, favourite, and
 
 <p align="center"><img src="https://i.imgur.com/w3SRlHW.jpg" width="700"></p>
 
-When creating a new place, the *location field* is a Google Maps Autocomplete input field which *directly relates to the information displayed both on the index and show pages*. The user can also upload a photo of the place from their computer, using the file-picker API.
+When creating a new place, the location field is a Google Maps Autocomplete input field which directly relates to the information displayed both on the index and show pages. The user can also upload a photo of the place from their computer, using the file-picker API.
 
 <p align="center"><img src="https://i.imgur.com/Z7Jx0mB.png?1" width="700"></p>
 
@@ -53,7 +56,7 @@ _____
 
 ###### PLACES INFO
 
-Star Gazer has a profile page, displaying your profile picture, which can be altered at any time using file-picker. The page also shows your favourited events and places, hidden until you click on "See your favourites" using ng-click and ng-class. *These can be clicked on to take you to the page of the favourited event/place.*
+Star Gazer has a profile page, displaying your profile picture, which can be altered at any time using file-picker. The page also shows your favourited events and places, hidden until you click on "See your favourites" using ng-click and ng-class. These can be clicked on to take you to the page of the favourited event/place.
 
 
 <p align="center"><img src="https://i.imgur.com/wbpQ1wN.png" width="700"></p>
