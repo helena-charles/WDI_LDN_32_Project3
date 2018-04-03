@@ -110,11 +110,6 @@ We would have liked to add direct messaging so that users could keep in touch af
 
 A global gallery, which would push images uploaded by users into a page for users to scroll through, add comments and favourite the ones they liked.
 
-
----
-
-FINAL STATEMENT GOES HERE
-
 ---
 
 ## Setup instructions
